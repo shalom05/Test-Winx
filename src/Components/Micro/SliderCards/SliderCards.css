@@ -1,0 +1,53 @@
+.All {
+  display: flex;
+  flex-direction: column; /* Coloca el texto y los controles en columna */
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(145deg, #f9c3c3, #f7a5a5);
+  border-radius: 12px; /* Bordes redondeados */
+  padding: 40px; /* Ajusta el espacio interno */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  width: 400px; /* Ancho fijo para la tarjeta */
+  margin: 20px auto; /* Centra la tarjeta horizontalmente */
+  font-family: sans-serif;
+}
+
+h3 {
+  font-size: 24px; /* Tamaño de fuente ajustado para mejor proporción */
+  color: #333; 
+  margin: 0 0 20px; /* Espacio entre el título y el slider */
+}
+
+.Agg {
+  width: 100%; /* Asegura que el contenedor del slider ocupe todo el ancho disponible */
+  display: flex;
+  justify-content: center; /* Centra el slider horizontalmente */
+}
+
+input {
+ 
+  width: 80%; /* Ajusta el ancho del slider */
+  height: 8px; /* Altura del slider */
+  background: #ddd; /* Fondo del slider */
+  border-radius: 5px; /* Bordes redondeados del slider */
+  outline: none; /* Elimina el borde de enfoque */
+  opacity: 0.7; /* Opacidad del slider */
+  transition: opacity .2s; /* Transición suave para el hover */
+}
+
+input::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Elimina el estilo predeterminado del thumb en WebKit */
+  width: 20px; /* Ancho del thumb */
+  height: 20px; /* Altura del thumb */
+  background: #f77f7f; /* Color del thumb */
+  border-radius: 50%; /* Bordes redondeados del thumb */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el thumb */
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px; /* Ancho del thumb para Firefox */
+  height: 20px; /* Altura del thumb para Firefox */
+  background: #f77f7f; /* Color del thumb para Firefox */
+  border-radius: 50%; /* Bordes redondeados del thumb para Firefox */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el thumb */
+}

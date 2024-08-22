@@ -1,0 +1,63 @@
+.Container2 {
+    font-family: 'Fairy', sans-serif; /* Puedes usar una fuente que tenga un estilo mágico o cursiva */
+    background-color: #fadcfa;
+    color: #3b1e5a; /* Color principal para el texto, en tonos púrpura oscuro */
+    text-align: center;
+    padding: 20px;
+    
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    color: #b35bcf; /* Color rosado/púrpura vibrante */
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    color: #a538b3; /* Otro tono púrpura */
+  }
+  
+  .answer-choice {
+    font-size: 1rem;
+    color: #5e2750; /* Tono más oscuro para el texto de la respuesta */
+    margin-bottom: 20px;
+  }
+  
+  .cards-multiple {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .Multi-Buttons {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 40px;
+  }
+  
+  button {
+    background-color: #b35bcf; /* Botones en tono rosado/púrpura */
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #a538b3; /* Oscurecer el color del botón al pasar el mouse */
+  }
+  
+  #back {
+    background-color: #d9a7e6; /* Un color más claro para el botón 'Atrás' */
+  }
+  
+  #back:hover {
+    background-color: #b35bcf; /* Coincidir con el color principal en hover */
+  }
+  

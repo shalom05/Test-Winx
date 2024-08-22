@@ -1,0 +1,42 @@
+
+.Card {
+    background: linear-gradient(145deg, #f5dfdf, #fbd9d9);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 60px;
+    max-width: 400px;
+    margin: 40px auto; /* Centra la tarjeta horizontalmente y le da margen superior e inferior */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    background-color: #f9c3c3;
+    font-family: sans-serif;
+}
+  
+.Card:before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 15px;
+    z-index: -1;
+}
+  
+.Card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+  
+.Card p {
+    font-size: 1.4rem;
+    color: #5d2a77; /* Color morado que recuerda a la estética de las Winx */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+  
+
+  
+  

@@ -1,0 +1,56 @@
+.container1 {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: 'Fairy', sans-serif;
+}
+
+.title {
+  font-size: 2em;
+  color: #b35bcf; /* Morado, en línea con el tema de las Winx */
+  margin-bottom: 10px;
+}
+
+.winx-image {
+  width: 300px; /* Ajusta el tamaño según tu preferencia */
+  margin: 20px auto;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #444;
+  margin-bottom: 20px;
+  padding-left: 280px;
+  padding-right: 280px;
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  padding: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #b35bcf; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #574bff;
+}

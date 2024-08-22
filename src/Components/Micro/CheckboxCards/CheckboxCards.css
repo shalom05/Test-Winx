@@ -1,0 +1,35 @@
+.card-container1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 200px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background: linear-gradient(145deg, #f5dfdf, #fbd9d9);
+    
+  }
+
+.card-container1 p {
+    font-size: 20px; /* Tamaño de fuente más grande para destacar */
+    color: #f05a7d; /* Color rosa vibrante */
+}
+
+/* Estilo del checkbox */
+.card-container1 input[type="checkbox"] {
+    width: 30px; 
+    height: 30px;
+    margin-bottom: 10px; 
+    accent-color: #f05a7d; 
+    cursor: pointer;
+
+}
+
+/* Efecto hover en la tarjeta */
+.card-container1:hover {
+    transform: scale(1.05); /* Aumento de tamaño */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); 
+}
